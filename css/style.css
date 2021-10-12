@@ -1,0 +1,86 @@
+  
+#header-img {
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    color: darkred
+}
+
+#nav-bar {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    font-family: Verdana,  sans-serif;
+    padding: 1em;
+    
+}
+
+.nav-link {
+  background-color: #a1a5a4;
+  border: 3px solid #1c6e1f;
+  color: darkred;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#video {
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-container {
+    text-align: center;
+    color: darkgreen;
+}
+
+#email {
+width: 17%;
+border: 2px solid darkgreen;
+border-radius: 4px;
+height: 30px;
+}
+
+#submit {
+    background-color: darkred;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    color: darkred;
+}
+
+@media (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  
+ 
